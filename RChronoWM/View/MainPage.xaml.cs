@@ -89,6 +89,7 @@ namespace RChronoWM.View
             for (int i = 0; i < App.lstSequences.Count; i++)
             {
                 dureeSequence = 0;
+
                 seq = App.lstSequences[i];
                 lstLignesChrono.Add(new Ligne { Nom = seq.Nom, Type = "Sequence", NbreRepetitions = seq.NbreRepetitions });
                 indexSequence = lstLignesChrono.Count - 1;
